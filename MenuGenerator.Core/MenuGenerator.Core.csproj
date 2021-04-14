@@ -45,7 +45,7 @@
     <Compile Include="MenuLink.cs" />
     <Compile Include="Abstraction\MenuLeaf.cs" />
     <Compile Include="MenuMethod.cs" />
-    <Compile Include="Abstraction\MenuParent.cs" />
+    <Compile Include="MenuParent.cs" />
     <Compile Include="MenuType.cs" />
     <Compile Include="MenuTypeGenerator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
+using MenuGenerator.Core.Abstraction;
 
-namespace MenuGenerator.Core.Abstraction
+namespace MenuGenerator.Core
 {
     public class MenuParent : MenuComponent
     {

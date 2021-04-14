@@ -1,12 +1,15 @@
-﻿using MenuGenerator.Core.Abstraction;
+﻿using System;
+using MenuGenerator.Core.Abstraction;
 
 namespace MenuGenerator.Core
 {
-    public class MenuTypeGenerator<T> : MenuLeaf
+    public class MenuTypeGenerator : MenuLeaf
     {
-        public MenuTypeGenerator(string name, string description = null) : base(name, description)
-        {
+        public Type Type { get; }
 
+        public MenuTypeGenerator(Type type, string name, string description = null) : base(name, description)
+        {
+            Type = type;
         }
     }
 }
